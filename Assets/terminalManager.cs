@@ -26,6 +26,8 @@ public class terminalManager : MonoBehaviour {
 	void Update () {
 		// Update values of sliders
 		catchSliderValues();		
+
+		
 	}
 
 	// -------------------------------------
@@ -39,5 +41,12 @@ public class terminalManager : MonoBehaviour {
 		m_effects[3].GetComponent<Slider>().value = m_InputManager.GetComponent<inputManager>().m_lightIntensity;
 		m_effects[4].GetComponent<Slider>().value = m_InputManager.GetComponent<inputManager>().m_soundPitch;
 		m_effects[5].GetComponent<Slider>().value = m_InputManager.GetComponent<inputManager>().m_normalIntensity;
+	}
+
+
+	private void showDescriptions() {
+		
+
+
 	}
 }
